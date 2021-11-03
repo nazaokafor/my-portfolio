@@ -1,12 +1,12 @@
 <h2>NAZA OKAFOR</h2>
 
             <img src = "1mb pic.JPG" alt = "Profile Picture"/>
+ 
+
+
 
             <p>
-               Full stack web developer with training in biotech aiming to promote a user friendly interface on the web.
-               Skills in HTML5, CSS3, JavaScript, and web design from Georgia Tech Professional Education. Extremely delighted 
-               to showcase my expertise as a creator in web design and hard-working abilities as I strive to innovate the best user
-               experience on websites. 
+               
             </p>
 
         </aside>
