@@ -30,7 +30,7 @@ nav a {
     margin: 30px;
 }
 
-section {
+.top-section {
     display: flex;
     justify-content: flex-end;
     background-image: url(https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/how-to-plan-a-programming-competition-header@2x.png);
@@ -47,7 +47,6 @@ section h2 {
 
 .part-1  {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px 30px 25px 40px;
 }
@@ -57,7 +56,7 @@ aside h3 {
     color: var(--secondary);
     border-right-style: solid;
     font-size: 40px;
-padding-right: 20px;
+    padding-right: 20px;
 }
 
 article img {
@@ -76,6 +75,20 @@ article p {
     margin-right: 45px;
     
 }
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: var(--primary);
+}
+
+.middle-section h4 {
+    font-size: 35px;
+    color: var(--secondary);
+}
+
 
 
 .footer p {
