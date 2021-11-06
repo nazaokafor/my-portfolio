@@ -16,7 +16,7 @@ A big challenge I faced while working on this project was with the arrangement m
 
 Website Mock Up
 
-
+![website mockup](https://user-images.githubusercontent.com/91860335/140625003-c748e774-8c51-4398-8114-57d4dd7ff75a.PNG)
 
 Website Link
 
