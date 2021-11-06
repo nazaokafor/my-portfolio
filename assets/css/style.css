@@ -1,14 +1,24 @@
+/* Adds color to elements of choice without having to rename their ID */
 :root {
     --primary:darksalmon;
     --secondary: indigo;
 }
 
+/* Adds header flexbox with styling */
 header {
     display: flex;
+    flex-grow: 1;
     justify-content: space-between;
     background-color: var(--primary);
     padding: 20px 10px 20px 0px; 
     align-items: center;
+}
+
+/* Makes header viewable in a different color on various electronic devices as dimensions change */
+@media screen and (max-width: 992px) {
+    header {
+        background: royalblue;
+    }
 }
 
 header h1 {
@@ -18,12 +28,20 @@ header h1 {
     font-size: 30px;
 }
 
+/* Adds navigation bar flex box */
 nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        background: green;
+    }
+}
+
+/* Adds color and style to text on navigation bar */
 nav a {
     color: var(--secondary);
     text-decoration: underline;
@@ -31,6 +49,7 @@ nav a {
     margin: 30px;
 }
 
+/* Adds color to navigation links as cursor hovers over them */
 nav a:hover {
     color: #000;
 }
@@ -40,6 +59,7 @@ main {
     flex-wrap: wrap;
 }
 
+/* Adds a background image to a flexbox on webpage */
 .top-section {
     display: flex;
     justify-content: flex-end;
@@ -71,19 +91,21 @@ aside h3 {
     padding-right: 20px;
 }
 
+/* Controls arrangement of flexbox items as the dimensions change */
 .about-me-flexbox {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* justify-content: space-evenly; */
 }
 
 article img {
-    /* flex-shrink: 0; */
     min-height: 100px;
-    /* overflow: hidden; */
     margin-left: 40px;
     margin-right: 40px;
+}
+
+@media screen and (max-width: 576px){
+    article img
 }
 
 article p {
@@ -96,6 +118,7 @@ article p {
     margin-right: 480px;
 }
 
+/* Flex grow expands a flexbox if area is not fully covered as dimensions are changed */
 .middle-section {
     display: flex;
     justify-content: center;
@@ -113,6 +136,7 @@ article p {
 
 .part-2 {
     display: flex;
+    flex-grow: 1;
     justify-content:space-between;
     padding: 20px 30px 25px 40px;
     background-color: gainsboro;
@@ -126,30 +150,19 @@ aside h5 {
     padding-right: 30px;
 }
 
+/* Adds space between the elements inside a flexbox evenly  */
 figure {
     display: flex;
     flex-wrap: wrap;
-    justify-items: space-between;
-    margin-left: 10px;
+    justify-content: space-between;
 
 }
 
 .big-flexbox {
     display: flex;
-    min-height: 300px;
-    width: 700px;
-    /* margin: 10px; */
-    /* margin-left: 40px; */
-    border-style: solid;
+    min-height: 325px;
+    width: 800px;
     margin: 10px;
-    flex-grow: 1;
-    background-image: cover;
-}
-
-.big-flexbox a {
-    /* font-size: 30px; */
-    /* font-weight: bold; */
-    /* background-color: var(--primary); */
 }
 
 .small-flexbox-1 {
@@ -157,13 +170,7 @@ figure {
     width: 300px;
     margin: 10px;
     margin-left: 40px;
-    border-style: solid;
-    flex-grow: 0.5;
    
-}
-
-.small-flexbox-1 a {
-    
 }
 
 .small-flexbox-2 {
@@ -171,14 +178,6 @@ figure {
     width: 300px;
     margin: 10px;
     margin-left: 40px;
-    border-style: solid;
-    flex-grow: 0.5;
-}
-
-.small-flexbox-2 a {
-    /* font-size: 30px; */
-    /* font-weight: bold; */
-    /* background-color: var(--primary); */
 }
 
 .small-flexbox-3 {
@@ -186,18 +185,7 @@ figure {
     width: 300px;
     margin: 10px;
     margin-left: 40px;
-    border-style: solid;
-    flex-flow: 0.5;
-
 }
-
-.small-flexbox-3 a {
-    /* font-size: 30px; */
-    /* font-weight: bold; */
-    /* background-color: var(--primary); */
-}
-
-
 
 .part-3 {
     display: flex;
@@ -233,5 +221,3 @@ content a {
 content a:hover {
     color: #000;
 }
-
-

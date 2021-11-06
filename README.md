@@ -1,56 +1,23 @@
-<h2>NAZA OKAFOR</h2>
+My Portfolio
 
-    justify-content: space-evenly;
-            
-            
-            <img src = "1mb pic.JPG" alt = "Profile Picture"/>
- 
+A portfolio is one of the best ways to showcase a web developer's talent on numerous projects that address the current challenges of user-friendly applications and software. 
+
+This week's challenge was to build an entire webpage from scratch, using HTML and CSS to create a presentation that sells our best attributes as an aspiring developer. 
+
+The following features were integrated onto the webpage to deliver a highly engaging interface:
+
+1. Webpage responsiveness on various electronic devices with the use of CSS elements such as media query and flex box attributes. 
+
+2. Deployed web applications embedded within images that describe previous and on-going projects. 
+
+As I was working on this project, I realized that the use of flex box elements are essential for the visual organization of websites in general. Additionally, I learned that media queries are important for promoting user engagement on apps and websites.
+
+A big challenge I faced while working on this project was with the arrangement my flexbox images to be aligned with their headings. Moreover, I experienced quite a bit of trouble  integrating shadow box colors on my images as the cursor hovers over them. In spite of these difficulties, I view this week's exercise as a pointer to areas I need to improve on with my flexbox and media query skills in the duration of this bootcamp.
+
+Website Mock Up
 
 
 
-            <p>
-               
-            </p>
+Website Link
 
-        </aside>
-
-         </section>
-
-        <aside>
-            <aside class = "aside">
-
-            
-        <section>
-
-            <section class = "section-1">
-                <h3>Profile</h3>
-
-                <p></p>
-
-            <section class = "section-1">
-                <h4>Work Experience</h4>    
-
-                <p></p>
-
-        </section>
-
-<nav>
-
-    <nav class = "nav-2">
-
-    <section>
-
-    <section class = "horiseon">
-        <a href = "https://nazaokafor.github.io/horiseon-advertisement/">HORISEON ADVERTISEMENT</a>
-        <img src = "" alt = "" />
-
-    <section class = "section-2">
-       <a href = "https://www.google.com/">PROJECT #2</a>
-       <img src = "" alt = ""/>
-
-    <section class = "section-2">    
-       <a href = "https://www.apple.com/">PROJECT #3</a>
-       <img src = "" alt = ""/>
-
-</section>
-
+https://nazaokafor.github.io/my-portfolio/
