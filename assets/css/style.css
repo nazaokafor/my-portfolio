@@ -21,6 +21,7 @@ header h1 {
 nav {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 nav a {
@@ -30,9 +31,19 @@ nav a {
     margin: 30px;
 }
 
+nav a:hover {
+    color: #000;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .top-section {
     display: flex;
     justify-content: flex-end;
+    flex-grow: 1;
     background-image: url(https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/how-to-plan-a-programming-competition-header@2x.png);
     padding: 100px 20px 20px 20px;
 }
@@ -49,6 +60,7 @@ section h2 {
     display: flex;
     justify-content: space-around;
     padding: 20px 30px 25px 40px;
+    background-color: gainsboro;
 }
 
 aside h3 {
@@ -59,12 +71,19 @@ aside h3 {
     padding-right: 20px;
 }
 
+.about-me-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
 article img {
-    min-height: 25px;
-    overflow: hidden;
+    /* flex-shrink: 0; */
+    min-height: 100px;
+    /* overflow: hidden; */
     margin-left: 40px;
     margin-right: 40px;
-    
 }
 
 article p {
@@ -72,8 +91,9 @@ article p {
     color: var(--secondary);
     font-size: 20px;
     text-align: justify;
-    margin-right: 45px;
-    
+    margin-top: 20px;
+    margin-left: 480px;
+    margin-right: 480px;
 }
 
 .middle-section {
@@ -82,17 +102,135 @@ article p {
     padding: 10px 10px 10px 10px;
     border-style: solid;
     border-color: var(--primary);
+    flex-grow: 1;
 }
 
 .middle-section h4 {
     font-size: 35px;
     color: var(--secondary);
-}
-
-
-
-.footer p {
-    text-align: center;
     
 }
+
+.part-2 {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px 25px 40px;
+    background-color: gainsboro;
+}
+
+aside h5 {
+    min-height: 50px;
+    color: var(--secondary);
+    border-right-style: solid;
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    margin-left: 10px;
+
+}
+
+.big-flexbox {
+    display: flex;
+    min-height: 300px;
+    width: 700px;
+    /* margin: 10px; */
+    /* margin-left: 40px; */
+    border-style: solid;
+    margin: 10px;
+    flex-grow: 1;
+    
+}
+
+.big-flexbox a {
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* background-color: var(--primary); */
+}
+
+.small-flexbox-1 {
+    min-height: 250px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 40px;
+    border-style: solid;
+    flex-grow: 0.5;
+   
+}
+
+.small-flexbox-1 a {
+    
+}
+
+.small-flexbox-2 {
+    min-height: 250px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 40px;
+    border-style: solid;
+    flex-grow: 0.5;
+}
+
+.small-flexbox-2 a {
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* background-color: var(--primary); */
+}
+
+.small-flexbox-3 {
+    min-height: 250px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 40px;
+    border-style: solid;
+    flex-flow: 0.5;
+
+}
+
+.small-flexbox-3 a {
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* background-color: var(--primary); */
+}
+
+
+
+.part-3 {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px 25px 20px;
+    background-color: gainsboro;
+}
+
+aside h6 {
+    min-height: 50px;
+    color: var(--secondary);
+    border-right-style: solid;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+content a {
+    color: var(--secondary);
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+content a:hover {
+    color: #000;
+}
+
 

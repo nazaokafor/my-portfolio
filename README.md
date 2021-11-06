@@ -1,5 +1,8 @@
 <h2>NAZA OKAFOR</h2>
 
+    justify-content: space-evenly;
+            
+            
             <img src = "1mb pic.JPG" alt = "Profile Picture"/>
  
 
